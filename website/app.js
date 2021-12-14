@@ -59,9 +59,6 @@ function main() {
   const feelings = document.getElementById("feelings").value;
   getTemp(zip)
     .then((response) => {
-      console.log(response);
-      console.log(newDate);
-      console.log(feelings);
       postData("/postData", {
         time: newDate,
         temp: response,
@@ -70,7 +67,6 @@ function main() {
     })
     .then(() => getData("/getData"))
     .then((response) => {
-      console.log(response);
       UpdateUI(response);
     });
 }
