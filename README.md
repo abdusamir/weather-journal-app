@@ -10,4 +10,4 @@ then you have to install few packages, open cmd and type
 	npm install express cors body-parser
 
 then open on the website folder and open cmd and then type node server.js
-on your machine open type 127.0.0.1:3000 and the website should work succesfully!
+on your machine open type 127.0.0.1:3030 or localhost:3030 and the website should work succesfully!
